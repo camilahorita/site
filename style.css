@@ -1,0 +1,196 @@
+body {
+  font-family: 'Vollkorn', serif;
+  font-size: 18px;
+  color: #0C0C1E;
+}
+header{
+  background: #0C0C1E;
+  padding: 20px 0;
+}
+
+.box, .aboutme, .projects, .contact{
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 25%;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0px;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #F3E3E2;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: #74112F;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.box-photo {
+  width: 100%;
+  background: linear-gradient(#0C0C1E 50%, #F3E3E2 50%);
+}
+
+.photo-camila {
+  width: 15%;
+  position: relative;
+  left: 42.5%;
+  background: #F3E3E2
+  border: 20px solid #74112F;
+  border-radius: 120px;
+}
+
+main {
+  background: #F3E3E2;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 2em 0;
+  color: #74112F;
+}
+
+.aboutme p {
+  width: 60%;
+  position: relative;
+  left: 20%;
+}
+
+.title2{
+  text-align: center;
+  padding: 2em 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1B2E3C;
+}
+
+.skills-list {
+  width: 40%;
+  position: relative;
+  left: 30%;
+}
+
+.skills-list li {
+  padding: 0.2em 0;
+}
+
+.skills-list li:before {
+  content: "✤ "
+}
+
+.doc-image {
+  position: relative;
+  width: 25px;
+}
+
+.aboutme p{
+  text-align: center;
+}
+
+.curriculum {
+  text-decoration: none;
+  color: #74112F;
+}
+
+.curriculum:hover {
+  color: #1B2E3C;
+}
+
+.projects h3{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  font-weight: bold;
+}
+
+.linksprojects:hover{
+  text-decoration: underline;
+  color: #74112F;
+}
+
+.linksprojects{
+  text-decoration: none;
+  color: #1B2E3C;
+  text-align: center;
+}
+
+.gamevideo {
+  width: 480px;
+  margin: 0 8%;
+  display: inline-block;
+}
+
+.text {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10%;
+}
+
+.contact p {
+  padding: 0.5em 4em;
+}
+
+.contact a{
+  text-decoration: none;
+  color: #74112F;
+}
+
+.contactlink:hover{
+  text-decoration: underline;
+  color: #1B2E3C;
+}
+
+.iconify {
+  font-size: 30px;
+  line-height: 20px;
+}
+
+.logo-footer {
+  width: 15%;
+}
+
+footer {
+  text-align: center;
+  background: #1B2E3C;
+  padding: 40px 0;
+  color: #F3E3E2;
+}
+
+
+@media screen and (max-width: 480px) {
+  .box, .aboutme, .projects, .contact, .gamevideo {
+    width:auto;
+  }
+  .title {
+    text-align: center;
+  }
+  nav {
+    position: static;
+  }
+  .text {
+    margin-left: 2em;
+  }
+}
